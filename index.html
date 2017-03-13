@@ -1,0 +1,208 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<marquee bgcolor="#666666" direction="down"><h1 style="color:#0FF";>ROBES DU MONDE</h1></marquee>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#page2" data-transition="flip">Niñas</a></li>
+            <li><a href="#page3" data-transition="flip">Señoras</a></li>
+			<li><a href="#page4" data-transition="flip">XV años</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>hecho en Francia, tienda de modas 2014-2020 </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+    <center>
+  <h1></h1>
+  <marquee><h1 style="color:#606";>VESTIDOS PARA NIÑAS</h1></marquee>
+  </center>
+  </div>
+  <div data-role="content">	
+  
+		<ceter>
+        <div data-role="popup" id="mypopup">
+           <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a><h1 style="color:#F06;">regresar</h1>
+         
+          </div>
+          <style>
+		  body{
+			  background-color:#00C;
+		  }
+		  #imagen{
+			  width:300px;
+			  height:400px;
+		  }
+		  #imagen:hover{
+			  transition:3s;
+			  transform:rotate(360deg);
+		  }
+		  </style>
+          <body>
+         <img id="imagen" src="vestido_5.jpg">
+         <img id="imagen" src="vestido_3.jpg">
+         <img id="imagen" src="vestido_4.jpg">
+         <img id="imagen" src="vestido6.jpg">
+        <h1>El vestido es de muy buena calidad y de buena tela</h1>
+        <br>
+        <p> el vestido esta importado de Francia</p>
+        </center>
+	</div>
+	<div data-role="footer">
+		<h4>¡VICITE NUESTRA SUCURSAL!!!!!!</h4>
+	</div>
+</div>
+
+
+
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+    <center>
+		<h1></h1>
+        <marquee><h1 style="color:#63F;"VESTIDOS PARA SEÑORA</h1></marquee>
+        <center>
+	</div>
+	<div data-role="content">
+        <center>
+        <div data-role="popup" id="mypopup">
+          <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a><h1 style="color:#F06;">regresar</h1>
+          </div>
+        <img id="imagen" src="vestido negro y cafe.png">
+        <img id="imagen" src="vestido rojo.png">
+        <img id="imagen" src="vestido.negro.png">
+        <img id="imagen" src="vestidonegro.png">
+    <h1>La tela viene muy elegante</h1>
+    <br>
+    <p>Estan a muy buen precio</p>
+    </center>			
+	</div>
+	<div data-role="footer">
+		<h4>COLORES HERMOSOS!!!</h4>
+	</div>
+</div>
+
+
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+    <center>
+  <h1></h1>
+  <marquee><h1 style="color:#690">VESTIDO PARA XV AÑOS</h1></marquee>
+  </center>
+  </div>
+	<div data-role="content">	
+		<ceter>
+        <div data-role="popup" id="mypopup">
+          <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a><h1 style="color:#F06;">regresar</h1>
+          </div>
+         <img id="imagen" src="azul marino.png">
+         <img id="imagen" src="vestido azul.png">
+         <img id="imagen" src="vestido morado.png">
+         <img id="imagen" src="vestido verde.png">
+          
+        <h1>El vestido es de muy buena calidad y de buena tela</h1>
+        <br>
+        <p> el vestido esta importado de Francia</p>
+        </center>
+	</div>
+	<div data-role="footer">
+		<h4>¡VICITE NUESTRA SUCURSAL!!!!!!</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page5">
+	<div data-role="header">
+    <center>
+  <h1></h1>
+  <marquee><h1 style="color:#9C0;">VESTIDOS PARA GRADUACIONES</h1></marquee>
+  </center>
+  </div>
+	<div data-role="content">	
+		<ceter>
+        <div data-role="popup" id="mypopup">
+          <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a><h1 style="color:#F06;">regresar</h1>
+           </div>
+        <img id="imagen" src="azul marino y rosa.png">
+        <img id="imagen" src="graduacion.png">
+        <img id="imagen" src="verde agua.png">
+        <img id="imagen" src="vestido bicolor.png">
+        <img id="imagen" src="vestido cafe.png"> 
+        <h1>El vestido es de muy buena calidad y de buena tela</h1>
+        <br>
+        <p> el vestido esta importado de Francia</p>
+        </center>
+	</div>
+	<div data-role="footer">
+		<h4>¡VICITE NUESTRA SUCURSAL!!!!!!</h4>
+	</div>
+</div>
+
+
+
+
+<div data-role="page" id="page6">
+	<div data-role="header">
+    <center>
+  <h1></h1>
+  <marquee><h1 style="color:#69C;">VESTIDOS PARA SEÑORITAS</h1></marquee>
+  </center>
+  </div>
+	<div data-role="content">	
+		<ceter>
+        <div data-role="popup" id="mypopup">
+          <a href="#pageone" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right"></a><h1 style="color:#F06;">regresar</h1>
+          </div>
+          <style>
+	
+	body{
+		background-color:peru;
+	}
+	#imagen{
+		width:850px;
+		height:350px;
+	}
+	#imagen:hover{
+		transition:2.5s;
+		transform:rotate(360deg);
+	}
+	</style>
+    <body>
+   
+         <img  id="imagen" src="modelo.png">
+          <img id="imagen" src="vestide gamusa.png">
+           <img id="imagen" src="vestido con moño.png">
+            <img id="imagen" src="vestido turquesa.png">
+        <h1>El vestido es de muy buena calidad y de buena tela</h1>
+        <br>
+        <p> el vestido esta importado de Francia</p>
+        </center>
+	</div>
+	<div data-role="footer">
+		<h4>¡VICITE NUESTRA TIENDA!!!!!!</h4>
+	</div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
